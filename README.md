@@ -1,6 +1,3 @@
-# Blue-green-deployment
-
-
 Implementing blue-green deployment in Amazon EKS (Elastic Kubernetes Service) involves creating two separate environments (the blue and green environments) that allow for seamless switching between application versions. Here’s a general approach to implementing it:
 
 Prerequisites
@@ -170,4 +167,3 @@ Perform canary testing alongside blue-green if a gradual rollout is needed.
 
 
 This approach allows for a controlled transition between versions with minimal downtime in your EKS environment.
-
